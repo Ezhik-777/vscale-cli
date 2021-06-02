@@ -8,7 +8,7 @@ import subprocess
 
 ## Вариант кофнигурации #############################################################
 
-api_key = os.environ['vscale_secret'] # брать из окружения системы (export)
+api_key = os.environ['vscale_secret'] # брать из окружения системы (export)()
 #api_key = 'xxxxxxx' # указать перманентно
 
 rplan = "small"                         # указать тарифный план
